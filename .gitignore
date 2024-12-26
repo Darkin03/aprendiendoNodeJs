@@ -1,0 +1,16 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos de entorno
+.env
+
+# Archivos de logs
+*.log
+
+# Carpetas de construcción
+/dist/
+/build/
+
+# Configuraciones locales del sistema operativo
+.DS_Store
+Thumbs.db

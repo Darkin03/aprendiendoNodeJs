@@ -43,3 +43,9 @@ console.log("Es un dispositivo:", stats.isBlockDevice());
 console.log("Es un enlace simbolico:", stats.isSymbolicLink());
 ``;
 ```
+
+### `FilePaths`
+
+### `ReadFile`
+
+Realiza una lectura completa del contenido del archivo en memoria para retornar la informacion. Es decir que el tiempo de respuesta y el consumo de memoria dependera del archivo con el cual estes trabajando.
