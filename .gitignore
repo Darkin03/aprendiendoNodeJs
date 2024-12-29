@@ -1,5 +1,6 @@
 # Dependencias de Node.js
 node_modules/
+.vscode/
 
 # Archivos de entorno
 .env
