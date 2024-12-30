@@ -1,16 +1,16 @@
 import fs from 'node:fs'
 // import path from 'node:path'
 // verificar si existe una carpeta
-// const nombreDeCarpeta = 'CarpetaDePrueba'
+const nombreDeCarpeta = 'CarpetaDePrueba'
 
-// try {
-//   if (!fs.existsSync(nombreDeCarpeta)) {
-//     fs.mkdirSync(nombreDeCarpeta)
-//     console.log('Carpeta creada con éxito')
-//   }
-// } catch (error) {
-//   console.error('No fue posible verificar la carpeta:', error.message)
-// }
+try {
+  if (!fs.existsSync(nombreDeCarpeta)) {
+    fs.mkdirSync(nombreDeCarpeta)
+    console.log('Carpeta creada con éxito')
+  }
+} catch (error) {
+  console.error('No fue posible verificar la carpeta:', error.message)
+}
 
 // leer el contenido de una carpeta
 
@@ -35,9 +35,9 @@ import fs from 'node:fs'
 
 // Elimanr una carpeta
 
-fs.rm('CarpetaDePruebaRenombrada', { recursive: true }, (error) => {
-  if (error) {
-    console.error('No fue posible eliminar la carpeta:', error)
-  }
-  console.log('Carpeta eliminada con éxito')
-})
+// fs.rm('CarpetaDePruebaRenombrada', { recursive: true }, (error) => {
+//   if (error) {
+//     console.error('No fue posible eliminar la carpeta:', error)
+//   }
+//   console.log('Carpeta eliminada con éxito')
+// })
